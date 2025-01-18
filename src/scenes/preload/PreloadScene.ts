@@ -5,7 +5,13 @@ export default class PreloadScene extends Phaser.Scene {
     super('PreloadScene');
   }
 
-  preload() {}
+  preload() {
+    this.load.atlas(
+      'witch',
+      'sprites/character/witch.png',
+      'sprites/character/witch.json'
+    );
+  }
 
   create() {
     this.scene.start('StartScene');
