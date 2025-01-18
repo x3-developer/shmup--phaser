@@ -4,6 +4,7 @@ import scenes from './scenes';
 
 new Phaser.Game({
   type: Phaser.AUTO,
+  // parent: 'app',
   width: 1920,
   height: 1080,
   scene: scenes,

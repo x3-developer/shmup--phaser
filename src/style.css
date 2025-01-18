@@ -1,8 +1,20 @@
+@font-face {
+  font-family: 'CurseCasual';
+  src: url("sprites/fonts/Curse Casual.ttf");
+}
+
 * {
   position: relative;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.fontPreload {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  font-family: 'CurseCasual', serif;
 }
 
 canvas {
