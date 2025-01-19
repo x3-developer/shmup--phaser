@@ -8,6 +8,7 @@ new Phaser.Game({
   width: 1920,
   height: 1080,
   scene: scenes,
+  pixelArt: true,
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
