@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "witch1",
+	"filename": "bat01",
 	"frame": {"x":1,"y":1,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":32,"h":32}
 },
 {
-	"filename": "witch2",
+	"filename": "bat02",
 	"frame": {"x":34,"y":1,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
@@ -19,10 +19,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "witch.png",
+	"image": "enemy.png",
 	"format": "RGBA8888",
 	"size": {"w":67,"h":34},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:fbacee32fae64b4ee26f2b53c97148c6:d490e87372cb798611b4cb6e1b3d1acd:d144f45eecf8181a27999d67b8e23957$"
+	"smartupdate": "$TexturePacker:SmartUpdate:ceb10b94562897a019f4210a0bd4519b:23f354b70f3f0b75fdb7f31526fcfa3d:a99356c10d69482e9bee53d25c3d05e1$"
 }
 }
