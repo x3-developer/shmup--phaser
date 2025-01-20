@@ -21,10 +21,7 @@ export default abstract class AbstractCharacter extends Phaser.GameObjects
     this.init();
   }
 
-  private init(): void {
-    this.scene.add.existing(this).setScale(4);
-    this.scene.physics.add.existing(this);
-  }
+  protected abstract init(): void;
 
-  abstract move(): void;
+  protected abstract move(): void;
 }

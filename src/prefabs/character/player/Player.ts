@@ -12,6 +12,11 @@ export default class Player extends AbstractCharacter {
     this.velocityY = 500;
   }
 
+  protected init() {
+    this.scene.add.existing(this).setScale(4);
+    this.scene.physics.add.existing(this);
+  }
+
   public move() {
     if (this.body) {
       const cursors = this.gameScene.getCursors();
